@@ -3,9 +3,6 @@ Titulos de la pagina con "h2"
 Subtitulos con "h3"*/
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
-	background-color: #df7ab1;
-}
 
 nav{
 	display: flex;
@@ -24,6 +21,10 @@ nav{
 	height: auto;
 }
 
+.enter-space{
+	gap: 70px;
+}
+
 ul{
 	list-style: none;
 	margin: 0 auto;
@@ -33,7 +34,6 @@ ul{
 
 ul li{
 	display: inline-block;
-	padding: 0px 20px;
 	font-size: 20px;
 }
 
@@ -57,18 +57,29 @@ a:hover{
 
 /*------------------------------------------------------------------------------*/
 /*esta parte es la parte de foot que es como la ultima parte*/
+.ulfoot li a:hover{
+	color: #8566DD;
+}
+
+.ulfoot li{
+	padding: 0px;
+}
+
 .alfin{
 	width: 100%;
-	height: 420px;
-	object-fit: cover;
+	height: 100%;
 	background-color: #df7ab1;
 	color: #f9fbeb;
 }
+
 #acompañame{
-	margin-left: 46%;
-	padding-top: 35px;
+	padding: 35px 0px 0px 0px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 	font-family: sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .redes{
 	font-size: 40px;
 	margin-top: 25px;
@@ -76,6 +87,7 @@ a:hover{
 	margin-right: 35%;
 	justify-content: space-between;
 }
+
 #linea1{
 	height: 2px;
 	background-color: #f9fbeb;
@@ -83,47 +95,23 @@ a:hover{
 	margin-left: 10%;
 	margin-right: 10%;
 }
+
 #linea2{
 	height: 2px;
 	background-color: #f9fbeb;
-	margin-top: 210px;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-.ulfoot{
-	float: left;
-	margin: 2%;
-	margin-left: 15%;
-	flex-direction: column;
-	line-height: 33px;
-}
-.ulfoot2{
-	margin: 2%;
-	float: left;
-	flex-direction: column;
-	line-height: 33px;
-}
-.ulfoot3{
-	margin: 2%;
-	float: left;
-	flex-direction: column;
-	line-height: 33px;
-	justify-content: space-between;
 }
 
-.ulfoot4{
+.ulfoot{
 	margin: 2%;
-	float: left;
 	flex-direction: column;
 	line-height: 33px;
-	justify-content: space-between;
 }
 
 h4{
-	float: left;
-	margin: 1%;
-	margin-left:37% ;
-	align-content: center;
+	text-align: center;
+	width: fit-content;
+	margin: auto;
+	padding: 20px 10px;
 }
 
 /*-----------------------------------------------------------------------------*/
@@ -160,7 +148,10 @@ p {
 
 .justify-center{
 	justify-content: center;
-	align-items: center;
+}
+
+.align-center{
+	align-items: center;	
 }
 
 #hero-identity{
@@ -173,6 +164,7 @@ p {
 	width: 100%;
 	color: #F5EEF6; 
 	text-align: center;
+	padding: 110px 0px;
 }
 .color-blue{
 	background-color: #87B0F0;
