@@ -4,7 +4,17 @@ body{
 
 *{margin: 0;
     padding: 0;}
-
+.fondo{
+    width: 100%;
+    height: 700px;
+    background-image: url(../imga/hero.png);
+    background-size: cover; /* Para cubrir todo el contenedor */
+    background-repeat: no-repeat;
+    position: absolute; /* Colocarlo detrás del nav */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Z-index bajo para la imagen de fondo */
+}
 nav{
     display: flex;
     align-items: center;
@@ -41,17 +51,120 @@ a{
 a:hover{
     color: #df7ab0;
 }
-/*-----------------------------------------------------------------------------*/
-/*la parte de arriba es la parte de la barra de navegacion*/
+.relleno{
+    width: 100%;
+    height: 400px;
+}
+#coquelicot{
+    color: rgb(244, 230, 228);
+    margin-top: 190px;
+    margin-left: 140px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#textoCoquelicot{
+    color: rgb(244, 230, 228);
+    font-size: 17.8px;
+    margin-top: 20px;
+    margin-left: 140px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#leermas{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 55px;
+    margin-left: 10.6%;
+    padding-left: 23px;
+    padding-right: 20px;
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: absolute;
+    object-fit: cover;
+    background-color: rgb(119, 179, 234);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#populares2024{
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 41%;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(119, 179, 234);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.partedeventa{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(244, 234, 236);
+}
+#ventas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 140px;
+}
+.productoventa1{
+    overflow: hidden;
+    width: 100%;
+    height: 70vh;
+}
+#producto{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
 
-
-
-
-
-
-
-/*------------------------------------------------------------------------------*/
-/*esta parte es la parte de foot que es como la ultima parte*/
+#Shopnow{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 30px;
+    margin-left: 2.2%;
+    padding-left: 23px;
+    padding-right: 20px;
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: absolute;
+    object-fit: cover;
+    background-color: rgb(119, 179, 234);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#pld{
+    width: 100%;
+    height: 300px;
+    background-color: #8566dd;
+}
+#logo2{
+    margin-top: 50px;
+    margin-left: 75%;
+    position: absolute;
+}
+#cMorado{
+    padding-top: 50px;
+    margin-left: 9%;
+    font-size: 30px;
+    color: #f9fbeb;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#scMorado{
+    margin-top: 25px;
+    margin-left: 9%;
+    font-size: 17px;
+    color: #f9fbeb;
+    font-family: sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .alfin{
     width: 100%;
     height: 420px;
