@@ -164,7 +164,7 @@ p {
 }
 
 #hero-identity{
-	background-image: url(../img/hero-nosotros.png);
+	background-image: url(hero-nosotros.png);
 	background-size: cover;
 	height: 450px;
 }
