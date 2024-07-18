@@ -229,3 +229,8 @@ a:hover{
     color:black;
 }
  
+h3{
+    float: left;
+    margin-left:47% ;
+    align-content: center;
+}
